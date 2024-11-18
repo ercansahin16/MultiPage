@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.about, .resume, .projects, .contact {
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+form .btn {
+    background-color: #007bff;
+    color: white;
+}
+.navbar {
+    background-color: #1e3a5f; /* Koyu Mavi */
+    color: #ffffff; /* Beyaz */
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff; /* Beyaz */
+  }
+  
+  .navbar .btn {
+    background-color: #2196f3; /* Açık Mavi */
+    color: white;
+  }
+  
+  .picture{
+   
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 95%;
+    margin-bottom: 80px;
+    margin-top: -150px;
+    border-radius: 25px;
+  }
